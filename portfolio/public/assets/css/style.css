@@ -12,8 +12,21 @@ footer {
     color: white;
 }
 
+.about__row {
+    align-items: center;
+}
+
 .about__image {
-    height: 20vh;
+    height: 40vh;
     width: 20vw;
-    border-radius: 20%;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.form-group {
+    padding: 1em 0;
+}
+
+.btn {
+    background-color: lightgrey;
 }
