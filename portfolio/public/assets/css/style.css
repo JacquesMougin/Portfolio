@@ -12,7 +12,7 @@ footer {
     color: white;
 }
 
-.about__image > img {
+.about__image {
     height: 20vh;
     width: 20vw;
     border-radius: 20%;
