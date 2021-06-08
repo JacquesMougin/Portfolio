@@ -2,4 +2,18 @@ body {
     background-image: url(../pictures/pexels-eberhard-grossgasteiger-1292115.jpg);
     background-size: cover;
     margin: 0 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    color: white;
+}
+
+.about__image > img {
+    height: 20vh;
+    width: 20vw;
+    border-radius: 20%;
 }

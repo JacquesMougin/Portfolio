@@ -7,7 +7,14 @@
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     </head>
     <body>
-        {% include "main/navbar.html.twig" %}
+        <header>
+            {% include "main/navbar.html.twig" %}
+        </header>
+        <main>
         {% block body %}{% endblock %}
+        </main>
+        <footer class="text-center">
+            © Copyright 2021 - Jacques Mougin. Tous droits réservés.
+        </footer>
     </body>
 </html>
