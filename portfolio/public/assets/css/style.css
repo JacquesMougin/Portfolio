@@ -108,42 +108,8 @@ footer {
 
 /* ABOUT */
 
-.about {
-    box-sizing: content-box;
-    overflow: auto;
-    font-size: 0.2em;
-} 
-
-.about__row {
-    align-items: center;
-}
-
-.about__image {
-    width: 100%;
-    max-width: 20vw;
-    height: auto;
-    border-radius: 50%;
-    align-items: center;
-}
-
-.projects {
-	font-family: sans-serif;
-	overflow: hidden;
-}
-
 *, *:before, *:after {
     box-sizing: border-box;
-  }
-  
-  html, body {
-    height: 100%;
-  }
-  
-  body {
-    color: #444;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
   }
   
 .slider {
@@ -242,10 +208,6 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .slider__image {
-    font-size: 2.7rem;
-        color: #2196F3;
-  }
   .slider__caption {
     font-weight: 500;
     margin: 2rem 0 1rem;
@@ -254,7 +216,12 @@ footer {
   }
   .slider__txt {
     color: black;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 1x 0px 0px black;
+  }
+  .slider__img {
+    border-radius: 50%;
+    height: 80%;
   }
   
   @-webkit-keyframes check {
