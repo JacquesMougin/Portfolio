@@ -31,14 +31,30 @@ footer {
     align-items: center;
 }
 
-/* CONTACT FORM */
+/* CONTACT */
 
 .form-group {
     padding: 1em 0;
 }
 
 .btn {
-    background-color: lightgrey;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact-text {
+    background-color: rgba(211, 211, 211, 0.479);
+    padding: 2em 1em;
+}
+
+.contact-form > p {
+    font-style: italic;
 }
 
 /* NAVBAR */
@@ -70,4 +86,11 @@ footer {
 .active {
     background-color: black;
     color: white !important;
+}
+
+/* FONTAWESOME */
+
+.fab {
+    color: black;
+    size: 3x;
 }
