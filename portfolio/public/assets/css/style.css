@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: scroll;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,14 +11,36 @@ body {
 
 main {
     margin: 0 15%;
-    height: 100vh;
+    height: 80vh;
 }
 
 footer {
     color: white;
+    padding: 2em 0;
+}
+
+/* HOME */
+
+.home {
+    background-color: rgba(211, 211, 211, 0.281);
+    padding: 1em 20vw;
+}
+
+.home > div > h1 {
+    font-weight: bold;
+}
+
+.home > div > h2 {
+    font-style: italic;
 }
 
 /* ABOUT */
+
+.about {
+    box-sizing: content-box;
+    overflow: auto;
+    font-size: 0.2em;
+} 
 
 .about__row {
     align-items: center;
@@ -25,7 +48,7 @@ footer {
 
 .about__image {
     width: 100%;
-    max-width: 40vw;
+    max-width: 20vw;
     height: auto;
     border-radius: 50%;
     align-items: center;

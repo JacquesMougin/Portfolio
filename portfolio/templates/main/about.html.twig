@@ -3,9 +3,9 @@
 {% block title %}Portfolio Jacques Mougin | About{% endblock %}
 
 {% block body %}
-<div class="text-center">
+<div class="about text-center">
     <div class="d-flex about__row">
-        <span>
+        <div class="col 6">
             <h2>Qui suis-je ?</h2>
             <p>
                 Je m'appelle Jacques Mougin, j'ai 27 ans et je vis actuellement dans la ville de Montpellier dans le sud de la France. Je suis <strong>développeur back end</strong> mais je m'interesse malgré au côté front end.
@@ -13,16 +13,16 @@
             <p>
                 J'ai baigné dans l'informatique dès mon plus jeune âge et je n'ai jamais arrêté d'explorer ce vaste univers. Je suis profondément curieux et cela me permet de m'intéresser à tout un tas de choses. A la fois musicien et cinéphile, je peux laisser mon esprit se perdre entre les oeuvres d'un musée ou m'obstiner avec ma planche de skate sous les pieds. Ma curiosité c'est exporter à l'étranger au travers de deux grands voyage : 1 an en Nouvelle-Zélande où j'ai pu parfaire mon anglais et 3 ans au Canada à braver le grand froid.
             </p>
-        </span>
-        <span>
+        </div>
+        <div class="col 6">
             <img class="about__image" src="{{ asset('assets/pictures/pexels-eberhard-grossgasteiger-1292115.jpg') }}" alt="">
-        </span>
+        </div>
     </div>
     <div class="d-flex about__row">
-        <span>
+        <div class="col 6">
             <img class="about__image" src="{{ asset('assets/pictures/pexels-eberhard-grossgasteiger-1292115.jpg') }}" alt="">
-        </span>
-        <span>
+        </div>
+        <div class="col 6">
             <h2>Mon parcours</h2>
             <p>Voilà une dizaine d'années que j'ai passé mon bac Economique et Social et il c'est passé pas mal de choses entre temps. Tout d'abord j'ai fais un BTS MUC (Management des Unités Commerciales) en alternance dans un magasin de prêt-à-porter et d'équipements de sport (un skateshop pour la faire courte). J'y ai appris des techniques de vente et surtout j'ai améliorer ma relation clientelle.</p>
             <p>Ensuite, je suis parti une année en Nouvelle-Zélande où j'ai pu pratiquer mon anglais et en faire ma deuxième langue natale et où j'ai pu travailler dans la vente pour continuer à paufiner mes talents de conseiller de vente.</p>
@@ -30,17 +30,17 @@
             <p>Et puis je suis rentré en France, en plein covid. Donc j'ai mis de côté le son et je me suis lancé dans une formation de développeur web. J'y ai appris les rudiments avec HTML et CSS, la dynamique avec Javascrpit, le back end avec PHP/Symfony et un paquet d'autres choses tels que la création d'API, la méthodologie Agile, etc...</p>
             <p>
             Aujourd'hui j'ai enfin trouvé ma voie et je n'ai qu'une hâte : continuer à apprendre, à progresser et à créer des projets toujours plus passionnants.</p>
-        </span>
+        </div>
     </div>
     <div class="d-flex about__row">
-        <span>
+        <div class="col 6">
             <h2>En bref</h2>
             <p>N'hésitez pas à aller consulter mes projets sur GitHub.</p>
             <p>Si vous avez des questions ou besoin de quelconques informations,<a href="">contactez moi !</a></p>
-        </span>
-        <span>
+        </div>
+        <div class="col 6">
             <img class="about__image" src="{{ asset('assets/pictures/pexels-eberhard-grossgasteiger-1292115.jpg') }}" alt="">
-        </span>
+        </div>
     </div>
 </div>
 {% endblock %}
