@@ -3,22 +3,27 @@
 {% block title %}Portfolio Jacques Mougin | Projets{% endblock %}
 
 {% block body %}
+<div>
+    <h1>Contactez moi !</h1>
+    <p>Vous êtes recruteur et êtes intéressé par mon profil ? Vous voulez en savoir plus sur moi ou sur mon travail ? Alors n'hésitez pas à me <strong>contacter</strong> via ce formulaire !</p>
+    <p>Vous pouvez également m'écrire à l'adresse suivante : jacquesmougin@hotmail.fr</p>
+    <p>Venez faire un tour : <a href=""><i class="fas fa-user"></i></a></p>
+</div>
 <div class="p-5 contact-form">
     <div class="form-group">
-{{ form_start(our_form) }}
-    {{ form_row(our_form.fullName, {'attr': {'class': 'form-control'}}) }}
-</div>
-<div class="form-group">
-    {{ form_row(our_form.email, {'attr': {'class': 'form-control'}}) }}
-</div>
-<div class="form-group">
-    {{ form_row(our_form.message, {'attr': {'class': 'form-control'}}) }}
-</div>
-<div class="form-group">
-    <input type="submit" value="Envoyer" class="btn py-3 px-5">
-</div>
-{{ form_end(our_form) }}
-</div>
-
+    {{ form_start(our_form) }}
+        {{ form_row(our_form.fullName, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="form-group">
+        {{ form_row(our_form.email, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="form-group">
+        {{ form_row(our_form.message, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Envoyer" class="btn py-3 px-5">
+    </div>
+    {{ form_end(our_form) }}
+    </div>
 </div>
 {% endblock %}

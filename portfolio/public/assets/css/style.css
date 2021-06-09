@@ -1,27 +1,37 @@
 body {
-    background-image: url(../pictures/pexels-eberhard-grossgasteiger-1292115.jpg);
+    background-image: url(../pictures/pexels-cup-of-couple-6177616\ \(1\).jpg);
     background-size: cover;
-    margin: 0 15%;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+main {
+    margin: 0 15%;
+    height: 100vh;
 }
 
 footer {
     color: white;
 }
 
+/* ABOUT */
+
 .about__row {
     align-items: center;
 }
 
 .about__image {
-    height: 40vh;
-    width: 20vw;
+    width: 100%;
+    max-width: 40vw;
+    height: auto;
     border-radius: 50%;
     align-items: center;
 }
+
+/* CONTACT FORM */
 
 .form-group {
     padding: 1em 0;
@@ -29,4 +39,35 @@ footer {
 
 .btn {
     background-color: lightgrey;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.301);
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    margin-left: 10em;
+}
+
+.navbar-nav {
+    margin-right: 10em;
+}
+
+.nav-link {
+    margin: 0.5em 2em;
+}
+
+.nav-link:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.active {
+    background-color: black;
+    color: white !important;
 }
