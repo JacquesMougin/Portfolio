@@ -34,26 +34,6 @@ footer {
     font-style: italic;
 }
 
-/* ABOUT */
-
-.about {
-    box-sizing: content-box;
-    overflow: auto;
-    font-size: 0.2em;
-} 
-
-.about__row {
-    align-items: center;
-}
-
-.about__image {
-    width: 100%;
-    max-width: 20vw;
-    height: auto;
-    border-radius: 50%;
-    align-items: center;
-}
-
 /* CONTACT */
 
 .form-group {
@@ -117,3 +97,30 @@ footer {
     color: black;
     size: 3x;
 }
+
+/* ABOUT */
+
+.about {
+    box-sizing: content-box;
+    overflow: auto;
+    font-size: 0.2em;
+} 
+
+.about__row {
+    align-items: center;
+}
+
+.about__image {
+    width: 100%;
+    max-width: 20vw;
+    height: auto;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.projects {
+	font-family: sans-serif;
+	overflow: hidden;
+}
+
+
