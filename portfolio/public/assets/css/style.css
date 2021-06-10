@@ -174,11 +174,6 @@ ABOUT
   justify-content: center;
 }
 
-.wrapper {
-  width: 50vw;
-  display: flex;
-}
-
 .slide {
   width: 0;
 }
@@ -192,6 +187,8 @@ ABOUT
   margin: 2em auto 0 auto;
   background-color: rgba(211, 211, 211, 0.514);
   box-shadow: 3px 3px 20px #9E9E9E;
+  width: 70vw;
+  display: flex;
 }
 
 .content {
@@ -201,7 +198,7 @@ ABOUT
   transition: opacity .6s;
   max-height: 90vh;
   overflow-y: auto;
-  width: 50vw;
+  width: 70vw;
   height: 100%; 
 }
 
